@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Quicksand", serif;
+    font-style: normal;
+}
+.n1{
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content:center;
+    gap:18rem;
+    margin-top: 30px;
+}
+.part-1{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.part-2{
+    display: flex;
+    margin-top: 30px;
+    list-style-type:none;
+    gap:25px;
+}
+.part-2 a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.part-3 button{
+    margin-top: 30px;
+    background-color:Orange;
+    color: white;
+    border-radius:12px;
+    font-size: 20px;
+    padding:10px 50px 10px 50px;
+    border: 1px transparent solid;
+    font-weight: 500;
+}
+.banner{
+    display: flex;
+    gap: 130px;
+}
+.s-card{
+    border:1px transparent solid;
+    width: fit-content;
+    padding:30px;
+    border-radius: 18px;
+    box-shadow:2px 2px 9px rgb(123, 121, 121);
+}
+.standard{
+    display: flex;
+    justify-content: space-around;
+    margin-top:80px;
+}
+.s-card img{
+ margin-left:70px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 30px;
+    margin-left:70px;
+}
+.c1 img{
+  border-top-left-radius:7%;
+  border-top-right-radius:7%;
+  width: fit-content; 
+  margin:0px;
+}
+.c2 img{
+    border-top-left-radius:7%;
+  border-top-right-radius:7%;
+  width: fit-content; 
+  margin:0px;
+}
+.c3 img{
+    border-top-left-radius:7%;
+  border-top-right-radius:7%;
+  width: fit-content; 
+  margin:0px;
+}
+.c4 img{
+    border-top-left-radius:7%;
+  border-top-right-radius:7%;
+  width: fit-content; 
+  margin:0px;
+}
+.c5 img{
+    border-top-left-radius:7%;
+  border-top-right-radius:7%;
+  width: fit-content; 
+  margin:0px;
+}
+.others{
+    display: grid;
+    grid-template-columns:repeat(2,290px);
+    column-gap: 20px;
+    row-gap:2px;
+}
+.stories{
+    display: flex;
+    gap: 60px;
+    margin-left: 120px;
+}
+.curriculumn button{
+    
+    background-color:black;
+    color: white;
+    border-radius:12px;
+    font-size: 20px;
+    padding:10px 50px 10px 50px;
+    border: 1px transparent solid;
+    font-weight:500;
+}
+.footer{
+    background-color: rgb(11, 175, 239);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.f-middle{
+    list-style:none;
+    color: white;
+}
+.f-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.f-middle a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    body{
+        width:100%;
+    }
+    .banner{
+      display: flex;
+      flex-direction: column-reverse;
+       width: 100%;
+    }
+    .part-2{
+      visibility:hidden;
+    }
+    .n1{
+      display: flex;
+      justify-content: space-between;
+    }
+    .part-3{
+        visibility: hidden;
+    }
+    .standard{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-left: 90px;
+        width:100vw;
+    }
+    .icons{
+        display: none;
+    }
+    .c1{
+        display: none;
+    }
+    .others{
+        display: grid;
+        grid-template-columns: repeat(2,100%);
+        margin-left:0px;
+        column-gap:5px;
+        width:100vw;
+      }
+      .c2 .c3 .c4 .c5{
+        width: 100%;
+      }
+      .footer{
+        display: flex;
+        flex-direction: column;
+      }
+      .f-1{
+       margin-left:0px;
+       display: block;
+      }
+      .f-middle{
+        margin-left: 150px;
+      }
+      .f-left{
+      margin-left: 150px;
+      }
+      .f-last{
+        margin-left: 150px;
+      }
+  }
+
+
+
