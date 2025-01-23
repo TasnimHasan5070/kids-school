@@ -144,12 +144,37 @@
 
 @media screen and (max-width:576px) {
     body{
-        width:100%;
+        width:576px;
     }
     .banner{
       display: flex;
       flex-direction: column-reverse;
        width: 100%;
+       margin-right:0px;
+    }
+    .banner-right h1 .span-class{
+        margin-left:140px;
+    }
+    .banner-right h1{
+        margin-left:140px;
+    }
+    .banner-right p{
+        margin-left:100px;
+        white-space:nowrap;
+    }
+    .banner-right>button{
+        margin-left:240px;
+        white-space:nowrap;
+    }
+    
+    .banner-right{
+        white-space:nowrap;
+    }
+    .banner h1{
+        font-size: 30px;
+    }
+        .left{
+        margin-left: 300px;
     }
     .part-2{
       visibility:hidden;
@@ -157,6 +182,7 @@
     .n1{
       display: flex;
       justify-content: space-between;
+      gap:54rem;
     }
     .part-3{
         visibility: hidden;
@@ -164,9 +190,22 @@
     .standard{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 50px;
-        margin-left: 90px;
+        margin-left: 180px;
         width:100vw;
+    }
+    .icons{
+      visibility: hidden;
+    }
+    .curriculumn{
+        background-size:cover;
+        width:100%;
+    }
+    .curriculumn-button>button{
+     display: flex;
+     justify-content: center;
     }
     .icons{
         display: none;
@@ -176,9 +215,9 @@
     }
     .others{
         display: grid;
-        grid-template-columns: repeat(2,100%);
+        grid-template-columns:auto auto;
         margin-left:0px;
-        column-gap:5px;
+        gap:5px;
         width:100vw;
       }
       .c2 .c3 .c4 .c5{
@@ -201,7 +240,12 @@
       .f-last{
         margin-left: 150px;
       }
+      .footer{
+      width: 100%;
+      }
   }
-
-
-
+  
+  
+  
+  
+  
